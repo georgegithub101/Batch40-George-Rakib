@@ -22,9 +22,9 @@ public class LoginTest {
 		//driver-object from sub sub class ChromDriver of Interface WebDriver
 		//upcasting. opening the browser
 		
-		driver.manage().window().maximize();
+		driver.manage().window().maximize(); 
 		//maximized window size
-		
+		  
 		//driver.get("https://automationexercise.com/");
 		//opening the URL, but it has less options
 		

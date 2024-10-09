@@ -8,7 +8,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
-public class Screenshot {
+public class Screenshot { 
 
 	public static void getScreenShot(WebDriver driver, String name){
 		File scrFile1 = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);

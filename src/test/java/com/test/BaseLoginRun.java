@@ -1,6 +1,6 @@
-package com.test;
+package com.test;  
 
-import com.generic.BaseLogin;
+import com.test.BaseLogin;
 
 public class BaseLoginRun {
 	
