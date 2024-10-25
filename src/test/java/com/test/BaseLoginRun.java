@@ -1,6 +1,4 @@
-package com.test;  
-
-import com.test.BaseLogin;
+package com.test;
 
 public class BaseLoginRun {
 	

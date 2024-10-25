@@ -181,6 +181,14 @@
             <artifactId>cucumber-junit</artifactId>
             <version>6.10.2</version>
         </dependency>
+        
+       <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.7.1</version>
+    <scope>test</scope>
+    </dependency>
+
 
         <dependency>
             <groupId>io.cucumber</groupId>

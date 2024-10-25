@@ -2,12 +2,14 @@ package com.generic;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverManager {
 	WebDriver driver;
-	public webDriver getChromeDriver() {
+	public WebDriver getChromeDriver() {
 		
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
@@ -17,18 +19,18 @@ public class DriverManager {
 	}
 	
 	
-	public webDriver getEdgeDriver() {
+	public WebDriver getEdgeDriver() {
 		
-		WebDriverManager.Edgedriver().setup();
+		WebDriverManager.edgedriver().setup();
 		driver = new EdgeDriver();
 		driver.manage().window().maximize();
 			return driver;
 		
 	}
 	
-	public webDriver getFirefoxDriver() {
+	public WebDriver getFirefoxDriver() {
 		
-		WebDriverManager.Firefoxdriver().setup();
+		WebDriverManager.firefoxdriver().setup();
 		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 			return driver;
